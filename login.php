@@ -26,9 +26,7 @@
     </div>
 
     <!-- Form Login -->
-   
-
-<div class="row d-flex justify-content-center">
+<div class=" d-flex justify-content-center">
             <div class="col-md-3 col-md-offset-4">
             <div class="card">
   <div class="card-header bg-success text-white text-center">
@@ -56,6 +54,7 @@
 
   </div>
 </div>  
+<!-- Form Login -->
 <div class="text-center my-2">
        <h5><i>Data Akurat - Perencanaan Tepat - Bantul Hebat</i></h5>
     </div>
