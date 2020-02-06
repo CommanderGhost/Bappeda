@@ -59,7 +59,7 @@
        <h5><i>Data Akurat - Perencanaan Tepat - Bantul Hebat</i></h5>
     </div>
     <div class="float-right">
-        <img src="img/bantul.jpg" alt="Brand Bantul" width="200px">
+        <img src="img/bantul.png" alt="Brand Bantul" width="200px">
     </div>
 
 </body>

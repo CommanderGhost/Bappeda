@@ -69,7 +69,7 @@
 </div>  
 <!-- Form Ganti Password -->
 <div class="float-right">
-        <img src="img/bantul.jpg" alt="Brand Bantul" width="200px">
+        <img src="img/bantul.png" alt="Brand Bantul" width="200px">
     </div>
 
 
