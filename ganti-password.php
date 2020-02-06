@@ -68,7 +68,7 @@
   </div>
 </div>  
 <!-- Form Ganti Password -->
-<div class="float-right">
+<div class="float">
         <img src="img/bantul.png" alt="Brand Bantul" width="200px">
     </div>
 
@@ -101,6 +101,14 @@ display: block;
   margin-right: auto;
 }
 
+.float{
+	position:fixed;
+	width:10px;
+	height:60px;
+	bottom:20px;
+	right:200px;
+	text-align:center;
+}
 </style>
 
 <script>

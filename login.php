@@ -58,7 +58,7 @@
 <div class="text-center my-2">
        <h5><i>Data Akurat - Perencanaan Tepat - Bantul Hebat</i></h5>
     </div>
-    <div class="float-right">
+    <div class="float">
         <img src="img/bantul.png" alt="Brand Bantul" width="200px">
     </div>
 
@@ -80,6 +80,15 @@ body {
 display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.float{
+	position:fixed;
+	width:10px;
+	height:60px;
+	bottom:20px;
+	right:200px;
+	text-align:center;
 }
 
 </style>
