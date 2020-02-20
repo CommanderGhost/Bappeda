@@ -32,7 +32,7 @@
       <div class="card-body">
   <form>
   <div class="form-group">
-    <input type="search" class="form-control" placeholder="Memasukkan kata kunci" aria-label="Search">
+    <input type="search" class="form-control" placeholder="Masukkan kata kunci" aria-label="Search">
     <button class="btn btn-success my-1 btn-block" type="submit">Cari</button>
     
   </div>
