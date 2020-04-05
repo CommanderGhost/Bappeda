@@ -9,7 +9,7 @@
  <link href="fa\css\all.css" rel="stylesheet">
  <link rel="stylesheet" href="bs\css\bootstrap.min.css">
  <!-- Import CDN Boostrap CSS -->   
-    <title>Sumber Data</title>
+    <title>Profil Data</title>
 </head>
 <body>
 
@@ -118,58 +118,84 @@
 
 <!-- Isi Data -->
 <div class="container">
-  <div class="row">
+<div class="row">
+    <div class="col-12 mt-1 text-center"><h5>Selamat Datang</h5></div>
+    <div class="col-12 mt-1 text-center"><h6>Di Aplikasi Sentralisasi Data BAPPEDA Kab. Bantul</h6></div>
+    <div class="col-12 mt-1 text-center"><h6>#DATA AKURAT - PERENCANAAN CEPAT - BANTUL HEBAT#</h6></div>
 
-    <div class="col-12 my-1 text-center"><h4>Sumber Data</h4></div>
-
-    <div class="col-12 text-center">
-  <ol class="breadcrumb justify-content-center" style="background-color:#fcfeff">
-    <li class="breadcrumb-item"><a href="#">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Library</li>
-  </ol>
+    <div class="col-12 mt-1 text-center">Pilih Tahun : 
+      <span>
+  <button class="btn btn-secondary dropdown-toggle dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    -- Tahun --
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">2020</a>
+    <a class="dropdown-item" href="#">2019</a>
+    <a class="dropdown-item" href="#">2018</a>
+    <a class="dropdown-item" href="#">2017</a>
+  </div>
+</span>
     </div>
 
-    <div class="col-12">
-    <form class="form-inline justify-content-center">
-    <input class="form-control col-sm-6" type="search" placeholder="Cari Data" aria-label="Search">
-    <button class="btn btn-success mx-2" type="submit">Search</button>
-    <button class="btn btn-success mx-1" type="submit">Tambah</button>
-  </form>
-    </div>
-    
-    <div class="col-12 mt-2">
-    <table class="table">
-  <thead class="thead-light">
+    <div class="col-12 mt-1 text-left">
+    <ul class="nav nav-tabs">
+    <li class="active mr-5"><a data-toggle="tab" href="#home">Profil Pengguna</a></li>
+    <li><a data-toggle="tab" href="#menu1">Keterisian Data</a></li>
+    </ul>
+
+    <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+    <!-- Tabel Profil -->
+    <table class="table table-bordered table-sm table-hover">
+  <thead>
     <tr>
-      <th scope="col">No</th>
-      <th scope="col">Sumber Data</th>
-      <th scope="col">Alamat</th>
-      <th scope="col">Aksi</th>
+      
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Nama Sumber Data 1</td>
-      <td>Jl. janti</td>
-      <td>Lihat / Unduh</td>
+      <th scope="row">Nama Instansi</th>
+      <td>Pemerintah Desa Pemuda Kabupaten Bantul</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Nama Sumber Data 2</td>
-      <td>Jl. Janti 2</td>
-      <td>Lihat / Unduh</td>
+      <th scope="row">Dinas</th>
+      <td>Kantor Dinas Pemuda dan Olahraga Kabupaten Bantul</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Nama Sumber Data 3</td>
-      <td>Jl. Janti 3</td>
-      <td>Lihat / Unduh</td>
+      <th scope="row">Nama Instansi</th>
+      <td>Pemerintah Desa Pemuda Kabupaten Bantul</td>
+    </tr>
+    <tr>
+      <th scope="row">Alamat</th>
+      <td>Jl. Kartini  No.38, Nogosari, Trirenggo, Bantul Bantul Regency, Special Region of Yogyakarta 55714</td>
+    </tr>
+    <tr>
+      <th scope="row">E-mail</th>
+      <td>dikpora@bantulkab.go.id</td>
+    </tr>
+    <tr>
+      <th scope="row">Telepon</th>
+      <td>(0274) 21819774</td>
+    </tr>
+    <tr>
+      <th scope="row">Penanggung Jawab</th>
+      <td>XXXXXXXXXX</td>
+    </tr>
+    <tr>
+      <th scope="row">Nomor Handphone</th>
+      <td>0858XXXX</td>
     </tr>
   </tbody>
-</table>
+</table>  
+    <!-- Tabel Profil -->
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
     </div>
   </div>
+</div>
 <!-- Isi Data -->
 
 

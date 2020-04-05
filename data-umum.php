@@ -60,7 +60,7 @@
 <!-- Menu Data geografi -->
   <div class=" col-3" style="background-color:#22b14c">
   <p class="text-center">
-    <a class="btn btn-sm btn-warning mx-2 mt-1" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    <a class="btn btn-sm btn-warning btn-block mx-2 mt-1" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
         Geografi
     </a>
   </p>
