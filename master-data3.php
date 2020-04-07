@@ -9,7 +9,7 @@
  <link href="fa\css\all.css" rel="stylesheet">
  <link rel="stylesheet" href="bs\css\bootstrap.min.css">
  <!-- Import CDN Boostrap CSS -->   
-    <title>Master Data</title>
+    <title>Pencarian Data</title>
 </head>
 <body>
 
@@ -117,6 +117,40 @@
 <!-- Navbar 2 -->
 
 <!-- Isi Data -->
+<h5 class="text-center mt-2">Master Data</h5>
+
+</div>
+<br>
+<div class="text-center"
+        style="color: black">
+        <h5>DATA UMUR HARAPAN HIDUP KABUPATEN BANTUL</h5>
+        <h5>TAHUN 2014-2018</h5>
+</div>
+
+<table class="table text-center">
+    <thead class="thead-dark">
+  <thead>
+    <tr>
+      <th scope="col">2014</th>
+      <th scope="col">73,24</th>
+      </tr>
+  </thead>
+  <table class="table text-center">
+    <thead class="thead-dark">
+  <thead>
+    <tr>
+      <th scope="col">2016</th>
+      <th scope="col">73,44</th>
+      </tr>
+    <tr>
+      <th scope="col">2017</th>
+      <th scope="col">73,56</th>
+      </tr>
+    <tr>
+      <th scope="col">2018</th>
+      <th scope="col">73,66</th>
+      </tr>
+  
 
 <!-- Isi Data -->
 
@@ -185,6 +219,10 @@ a:hover {
 .drop2 {
     width: 300px !important;
 }
+.breadcrumb {
+    padding: 2px 15px !important;
+}
+
 </style>
 
 <script>
