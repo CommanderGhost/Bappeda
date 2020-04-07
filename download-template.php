@@ -9,7 +9,7 @@
  <link href="fa\css\all.css" rel="stylesheet">
  <link rel="stylesheet" href="bs\css\bootstrap.min.css">
  <!-- Import CDN Boostrap CSS -->   
-    <title>Profil Data</title>
+    <title>Download Template</title>
 </head>
 <body>
 
@@ -117,130 +117,17 @@
 <!-- Navbar 2 -->
 
 <!-- Isi Data -->
-<div class="container">
-<div class="row">
-    <div class="col-12 mt-1 text-center"><h5>Selamat Datang</h5></div>
-    <div class="col-12 mt-1 text-center"><h6>Di Aplikasi Sentralisasi Data BAPPEDA Kab. Bantul</h6></div>
-    <div class="col-12 mt-1 text-center"><h6>#DATA AKURAT - PERENCANAAN CEPAT - BANTUL HEBAT#</h6></div>
+<h5 class="text-center mt-2">Download Template</h5>
 
-    <div class="col-12 mt-1 text-center">Pilih Tahun : 
-      <span>
-  <button class="btn btn-secondary dropdown-toggle dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    -- Tahun --
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">2020</a>
-    <a class="dropdown-item" href="#">2019</a>
-    <a class="dropdown-item" href="#">2018</a>
-    <a class="dropdown-item" href="#">2017</a>
-  </div>
-</span>
-    </div>
-
-    <div class="col-12 mt-1 text-left">
-    <ul class="nav nav-tabs">
-    <li class="active mr-5"><a data-toggle="tab" href="#home">Profil Pengguna</a></li>
-    <li><a data-toggle="tab" href="#menu1">Keterisian Data</a></li>
-    </ul>
-
-    <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-    <!-- Tabel Profil -->
-    <table class="table table-bordered table-sm table-hover">
-  <thead>
-    <tr>
-      
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Nama Instansi</th>
-      <td>Pemerintah Desa Pemuda Kabupaten Bantul</td>
-    </tr>
-    <tr>
-      <th scope="row">Dinas</th>
-      <td>Kantor Dinas Pemuda dan Olahraga Kabupaten Bantul</td>
-    </tr>
-    <tr>
-      <th scope="row">Nama Instansi</th>
-      <td>Pemerintah Desa Pemuda Kabupaten Bantul</td>
-    </tr>
-    <tr>
-      <th scope="row">Alamat</th>
-      <td>Jl. Kartini  No.38, Nogosari, Trirenggo, Bantul Bantul Regency, Special Region of Yogyakarta 55714</td>
-    </tr>
-    <tr>
-      <th scope="row">E-mail</th>
-      <td>dikpora@bantulkab.go.id</td>
-    </tr>
-    <tr>
-      <th scope="row">Telepon</th>
-      <td>(0274) 21819774</td>
-    </tr>
-    <tr>
-      <th scope="row">Penanggung Jawab</th>
-      <td>XXXXXXXXXX</td>
-    </tr>
-    <tr>
-      <th scope="row">Nomor Handphone</th>
-      <td>0858XXXX</td>
-    </tr>
-  </tbody>
-</table>  
-    <!-- Tabel Profil -->
-    </div>
-    <div id="menu1" class="tab-pane fade">
-    <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">Nama Urusan</th>
-          <th scope="col">Sub Urusan</th>
-          <th scope="col">Elemen Data</th>
-          <th scope="col">Terisi</th>
-          <th scope="col">% Terisi</th>
-          <th scope="col">Validasi</th>
-          <th scope="col">% Validasi</th>
-        </tr>
-        <!-- <div class="card-header" id="headingOne"> -->
-        <tr>
-          <td>Pendidikan</td>
-          <td>Detail <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            V
-          </button></td>
-          <td>51</td>
-          <td>39</td>
-          <td>76%</td>
-          <td>37</td>
-          <td>95%</td>
-        </tr>
-        <!-- </div> -->
-      </thead>
-      <tbody id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-        <tr>
-          <td></td>
-          <td>PAUD</td>
-          <td>2</td>
-          <td>1</td>
-          <td>50%</td>
-          <td>1</td>
-          <td>100%</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>SD</td>
-          <td>2</td>
-          <td>2</td>
-          <td>100%</td>
-          <td>2</td>
-          <td>100%</td>
-        </tr>
-      </tbody>
-    </table>
-
-    </div>
-    </div>
-  </div>
+<!-- table dropdown -->
+<div class="container-fluid col-md-4">
+<label for="exampleFormControlFile1">BIDANG URUSAN</label>
+<select class="form-control">
+  <option>Default select</option>
+</select>
+<button type="submit" class="btn btn-primary btn-warning mt-2">Download</button>
 </div>
+<!-- table dropdown -->
 <!-- Isi Data -->
 
 
