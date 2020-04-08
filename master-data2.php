@@ -115,7 +115,73 @@
   </div>
 </nav>
 <!-- Navbar 2 -->
+<div class="left-ly">
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Data Umum
+          </button>
+        </h2>
+      </div>
 
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>1.Batas Wilayah</p>
+          <p>2.Luas Wilayah</p>
+          <p>3.Klasifikasi Wilayah</p>
+          <p>4.Penggunaan Lahan</p>
+          <p>5.Daerah Aliran Sungai</p>
+          <p>6.Kawasan Rawan Bencana</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Pendidikan
+          </button>
+        </h2>
+      </div>
+
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+        <p>1.Kondisi Pendidikan Anak Usia Dini (PAUD)</p>
+        <p>2.Kondisi Pendidikan Dasar</p>
+        <p>3.Kondisi Pendidikan Menengah Pertama</p>
+        <p>4.Kondisi Pendidikan Menengah Atas Dan Kejuruan</p>
+        <p>5.Kondisi Pendidikan Non Formal</p>
+        <p>6.Kondisi Program Kesetaraan</p>
+        <p>7.Persentase Kelulusan</p>
+        <p>8.Angka Putus Sekolah (APS) Per Jenjang Pendidikan</p>
+        <p>9.Angka Partisipasi Kasar(APK)</p>
+        <p>10.Angka Partisipasi Murni (APM)</p>
+        <p>11.Rasio Guru dan Murid</p>
+        <p>12.Angka Partisipasi Sekolah</p>
+        <p>13.Angka Buta Huruf</p>
+        <p>14.harapan Lama Sekolah</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Kesehatan
+          </button>
+        </h2>
+      </div>
+
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>1.isi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Isi Data -->
 
 <!-- Isi Data -->
@@ -184,6 +250,18 @@ a:hover {
 
 .drop2 {
     width: 300px !important;
+}
+.right-ly{
+  width: auto;
+  height: auto;
+}
+.left-ly{
+  position:absolute;
+  width: 25%;
+  height:100%;
+  float:left;
+.clear{
+  clear:both;
 }
 </style>
 

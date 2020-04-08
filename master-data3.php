@@ -115,42 +115,111 @@
   </div>
 </nav>
 <!-- Navbar 2 -->
+<!-- Navbar 2 -->
+<div class="left-ly">
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Data Umum
+          </button>
+        </h2>
+      </div>
 
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>1.Batas Wilayah</p>
+          <p>2.Luas Wilayah</p>
+          <p>3.Klasifikasi Wilayah</p>
+          <p>4.Penggunaan Lahan</p>
+          <p>5.Daerah Aliran Sungai</p>
+          <p>6.Kawasan Rawan Bencana</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Pendidikan
+          </button>
+        </h2>
+      </div>
+
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+        <p>1.Kondisi Pendidikan Anak Usia Dini (PAUD)</p>
+        <p>2.Kondisi Pendidikan Dasar</p>
+        <p>3.Kondisi Pendidikan Menengah Pertama</p>
+        <p>4.Kondisi Pendidikan Menengah Atas Dan Kejuruan</p>
+        <p>5.Kondisi Pendidikan Non Formal</p>
+        <p>6.Kondisi Program Kesetaraan</p>
+        <p>7.Persentase Kelulusan</p>
+        <p>8.Angka Putus Sekolah (APS) Per Jenjang Pendidikan</p>
+        <p>9.Angka Partisipasi Kasar(APK)</p>
+        <p>10.Angka Partisipasi Murni (APM)</p>
+        <p>11.Rasio Guru dan Murid</p>
+        <p>12.Angka Partisipasi Sekolah</p>
+        <p>13.Angka Buta Huruf</p>
+        <p>14.harapan Lama Sekolah</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Kesehatan
+          </button>
+        </h2>
+      </div>
+
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>1.isi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Navbar 2 -->
 <!-- Isi Data -->
-<h5 class="text-center mt-2">Master Data</h5>
+<div class="right-ly">
+  <div class="text-center">
+      <h4>Master Data</h4>
+      <h5>Master Data Berdasarkan :</h5>
+  </div>
 
+  <div class="row container-fluid justify-content-center">
+    <div class="col-md-4">
+      <table class="table">
+        <thead style="background-color:yellow">
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="col">2014</th>
+            <th scope="col">73,24</th>
+          </tr>
+          <tr>
+            <th scope="col">2016</th>
+            <th scope="col">73,44</th>
+          </tr>
+          <tr>
+            <th scope="col">2017</th>
+            <th scope="col">73,56</th>
+          </tr>
+          <tr>
+            <th scope="col">2018</th>
+            <th scope="col">73,66</th>
+          </tr>
+          <tr>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
-<br>
-<div class="text-center"
-        style="color: black">
-        <h5>DATA UMUR HARAPAN HIDUP KABUPATEN BANTUL</h5>
-        <h5>TAHUN 2014-2018</h5>
-</div>
-
-<table class="table text-center">
-    <thead class="thead-dark">
-  <thead>
-    <tr>
-      <th scope="col">2014</th>
-      <th scope="col">73,24</th>
-      </tr>
-  </thead>
-  <table class="table text-center">
-    <thead class="thead-dark">
-  <thead>
-    <tr>
-      <th scope="col">2016</th>
-      <th scope="col">73,44</th>
-      </tr>
-    <tr>
-      <th scope="col">2017</th>
-      <th scope="col">73,56</th>
-      </tr>
-    <tr>
-      <th scope="col">2018</th>
-      <th scope="col">73,66</th>
-      </tr>
-  
 
 <!-- Isi Data -->
 
@@ -222,7 +291,18 @@ a:hover {
 .breadcrumb {
     padding: 2px 15px !important;
 }
-
+.right-ly{
+  width: auto;
+  height: auto;
+}
+.left-ly{
+  position:absolute;
+  width: 25%;
+  height:100%;
+  float:left;
+.clear{
+  clear:both;
+}
 </style>
 
 <script>
