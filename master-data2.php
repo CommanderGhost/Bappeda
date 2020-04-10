@@ -182,11 +182,162 @@
     </div>
   </div>
 </div>
+<!-- Navbar 2 -->
 <!-- Isi Data -->
-
+<div class="right-ly">
+  <div class="text-center">
+      <h5>Master Data</h5>
+      <h6>Master Data Berdasarkan :</h6>
+  </div>
+  <div class="row container-fluid justify-content-center">
+    <div class="col-md-4">
+      <select class="custom-select custom-select-sm mb-3">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+    <div class="col-md-1">
+    <button type="button" class="btn btn-success btn-sm">Pilih</button>
+    </div>
+  </div>
+  <div class="row container-fluid justify-content-center">
+    <div class="col-md-4">
+      <select class="custom-select custom-select-sm mb-3">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+    <div class="col-md-1">
+      <button type="button" class="btn btn-success btn-sm">Pilih</button>
+    </div>
+  </div>
+  <div class="row container-fluid justify-content-center">
+    <div class="col-md-2 ml-5">
+      <select class="custom-select custom-select-sm mb-3">
+        <option selected>2014</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+    S/d
+    <div class="col-md-2">
+      <select class="custom-select custom-select-sm mb-3">
+        <option selected>2018</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+      <button type="button" class="btn btn-success btn-sm">Print</button>
+      </div>
+      <div class="col-sm-0">
+      <button type="button" class="btn btn-success btn-sm">Download</button>
+      </div>
+    </div>
+    <div class="row container-fluid justify-content-center">
+      <div class="col-sm-6">
+        <table class="table table-bordered table-sm">
+          <thead style="background-color:yellow">
+            <tr>
+            <td align="center" bgcolor="yellow" colspan="1">Bidan Urusan</td>
+            <td align="center" bgcolor="yellow" colspan="1">Daftar Data</td>
+            <td align="center" bgcolor="yellow" colspan="1">Sumber Data</td>
+            <td align="center" bgcolor="yellow" colspan="1">Aksi</td>                    
+              <!-- <th scope="col">Bidang Urusan</th>
+              <th scope="col">Daftar Data</th>
+              <th scope="col">Sumber Data</th>
+              <th scope="col">Aksi</th> -->
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Kesehatan</th>
+              <td>Umur Harapan Hidup</td>
+              <td>DINKES KAB BANTUL</td>
+              <td>Lihat/Unduh</td>
+            </tr>
+            <tr>
+              <th scope="row"> </th>
+              <td>Anggaran dan Realisasi Kegiatan Peningkatan Masyarakat di Puskesmas</td>
+              <td>DINKES KAB BANTUL</td>
+              <td>LIHAT/UNDUH</td>
+            </tr>
+            <tr>
+              <th scope="row"> </th>
+              <td>Layanan Unggulan di Puskesmas Dalam Rangka Upaya Kesehatan Perorangan (UKP)Tahun</td>
+              <td>DINKES KAB BANTUL</td>
+              <td>LIHAT/UNDUH</td>
+            </tr>
+            <tr>
+              <th scope="row"> </th>
+              <td>Kegiatan Inovasi Puskesmas Dalam Rangka</td>
+              <td>DINKES KAB BANTUL</td>
+              <td>LIHAT/UNDUH</td>
+            </tr>
+            <tr>
+              <th scope="row"> </th>
+              <td>Aanggaran dan Realisasi kegiatan Pelaksanaan BLUD Puskesmas</td>
+              <td>DINKES KAB BANTUL</td>
+              <td>LIHAT/UNDUH</td>
+            </tr>
+            <tr>
+              <th scope="row"> </th>
+              <td>Hasil Kegiatan Pengawasan Makanan Tahun dan</td>
+              <td>DINKES KAB BANTUL</td>
+              <td>LIHAT/UNDUH</td>
+            </tr>
+            <tr>
+              <th scope="row"> </th>
+              <td>Hasil Capaian Tatanan PHBS</td>
+              <td>DINKES KAB BANTUL</td>
+              <td>LIHAT/UNDUH</td>
+            </tr>
+            <tr>
+              <th scope="row"> </th>
+              <td>Penilaian Akreditasi Puskemas</td>
+              <td>DINKES KAB BANTUL</td>
+              <td>LIHAT/UNDUH</td>
+            </tr>
+            <tr>
+              <th scope="row"> </th>
+              <td>Kelas Rumah Sakit Tahun</td>
+              <td>DINKES KAB BANTUL</td>
+              <td>LIHAT/UNDUH</td>
+            </tr>
+            <tr>
+              <th scope="row"> </th>
+              <td>Data Kepersetaan Jaminan Kesehatan Tahun</td>
+              <td>DINKES KAB BANTUL</td>
+              <td>LIHAT/UNDUH</td>
+            </tr>
+            <tr>
+              <th scope="row"> </th>
+              <td>Kemitraan Dinas Kesehatan dengan Institusi</td>
+              <td>DINKES KAB BANTUL</td>
+              <td>LIHAT/UNDUH</td>
+            </tr>
+            <tr>
+              <th scope="row"> </th>
+              <td>Permasalahan dan Solusi dalam Urusan Kesehatan</td>
+              <td>DINKES KAB BANTUL</td>
+              <td>LIHAT/UNDUH</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Isi Data -->
-
-
+<!-- Clear float -->
+<div class="clear"></div>
 <div class="float">
         <img src="img/bantul2.png" alt="Brand Bantul" width="900px">
     </div>
@@ -251,15 +402,17 @@ a:hover {
 .drop2 {
     width: 300px !important;
 }
-.right-ly{
-  width: auto;
-  height: auto;
-}
 .left-ly{
   position:absolute;
   width: 25%;
   height:100%;
   float:left;
+}
+.right-ly{
+  width: auto;
+  height: auto;
+}
+
 .clear{
   clear:both;
 }
