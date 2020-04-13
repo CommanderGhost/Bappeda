@@ -145,20 +145,27 @@
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>Kesehatan</td>
+      <td>Dinas Kesehatan</td>
+      <td>XXXXX</td>
+      <td>p@ssw</td>
+      <td>Ubah/Hapus/Log Activity</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <th scope="row"></th>
+      <td></td>
+      <td>RSUD Panembahan Senopati</td>
+      <td>XXXX</td>
+      <td>p@ssw</td>
+      <td>Ubah/Hapus/Log Activity</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Larry the Bird</td>
-      <td>@twitter</td>
+      <th scope="row"></th>
+      <td></td>
+      <td>BPS</td>
+      <td>XXXX</td>
+      <td>p@ssw</td>
+      <td>Ubah/Hapus/Log Activity</td>
     </tr>
   </tbody>
 </table>

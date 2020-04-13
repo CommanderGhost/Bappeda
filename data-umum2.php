@@ -74,7 +74,7 @@
   <div class="d-flex bd-highlight mt-1">
   
   <!-- Menu Data Geografi -->
-  <div class="p-2 bd-highlight" style="background-color:#ebe600; width:285px">
+  <div class="p-2 bd-highlight" style="background-color:#ebe600; width:420px">
   
   <p class="text-center">
     <a class="btn btn-sm btn-warning mx-2 mt-1" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -126,12 +126,42 @@
 
   </div>  
   <!-- Isi Data -->
-  <div class="p-2 bd-highlight bg-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit harum sed adipisci id neque esse eius, cumque fugit assumenda? Molestias, voluptatum blanditiis suscipit quo vel delectus illo ut fugiat incidunt?</div>
+  <div class="p-2 bd-highlight bg-light">
+  <table class = "table table-bordered mt-4">
+  <thead style="background-color:yellow">
+  <thead>
+  <h1 class ="text-center text-warning">BATAS WILAYAH KABUPATEN BANTUL</h1>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Sebelah Utara</th>
+      <td>Kota Yogyakarta dan Kabupaten Sleman</td>
+    </tr>
+    <tr>
+      <th scope="row">Sebelah Selatan</th>
+      <td>Samudera Hindia</td>
+    </tr>
+    <tr>
+      <th scope="row">Sebelah Barat</th>
+      <td>Kabupaten Kulon Progo dan Kabupaten Sleman</td>
+    </tr>
+    <tr>
+      <th scope="row">Sebelah Timur</th>
+      <td>Kabupaten Gunungkidul</td>
+    </tr>
+  </tbody>
+</table>
+<p class="text-center">Pemasangan pilar batas wilayah mengacu pada permendagri nomor 76 tahun 2012 tentang pedoman Penegasan Batas Daerah.
+Berikut acuan batas Kabupaten Bantul dengan Kabupaten/Kota di Daerah Isimewa Yogyakarta : </p>
+<p class="text-left">1. Peraturan Menteri Dalam Negeri Nomor 71 Tahun 2007 Tentang Batas Daerah Kabupaten Gunungkidul dengan Kabupaten Bantul Provinsi Daerah Istimewa Yogyakarta</p>
+<p class="text-left">2. Peraturan Menteri Dalam Negeri Nomor 15 Tahun 2012 Tentang Batas Daerah Kota Yogyakarta dengan Kabupaten Bantul Provinsi Daerah Istimewa Yogyakarta.</p>  
+<p class="text-left">3. Peraturan Menteri Dalam Negeri Nomor 83 Tahun 2013 tentang Batas Daerah Kabupaten Bantul dengan Kabupaten Sleman Provinsi Daerah Istimewa Yogyakarta.</p>  
   <!-- Isi Data -->
   </div>
-
-
-
 
 <div class="float">
         <img src="img/bantul2.png" alt="Brand Bantul" width="900px">
